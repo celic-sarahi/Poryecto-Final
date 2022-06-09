@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
+
+h1.title{
+    font-size: 1cm;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Pacifico', cursive;
+    color: black;
+
+}
+body{
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;*/
+}
+div.img-menuv{
+    position:absolute;
+    padding-top: 9.5%;
+    height: 20%;
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;*/
+}
+img.img-menuv{
+    width:100%;
+    height: 100%;
+    max-height: 280px;
+    
+}
+
+div.coti{
+    width:88.5%;
+    height:10%;
+    position: absolute;
+    padding-left: 30%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.wrapper {
+  background: url("http://4kwallpapers.com/images/walls/thumbs_2t/906.jpg");
+  color: #eee;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+
+  .jumbotron {
+	color: #000407;
+    font-family: 'Pacifico', cursive;
+	background-color: #ecf0f1;
+	border: 1px solid #D6DBDF;
+	margin-top: 10px;
+}
+
+/*Para el carrusel de ilustraciones*/
+/* Para el ancho y alto de las imagenes. Modificalo a gusto =)  */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: auto;
+    height: 500px;
+    margin: auto;
+}
+/* Para los margenes del contendor de las fotos. Podes cambiarle el ancho a gusto tambien! */
+.carousel-control {
+    width: 10%;
+}
